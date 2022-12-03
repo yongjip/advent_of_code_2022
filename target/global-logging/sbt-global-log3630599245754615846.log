@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 19.0.1)
+[debug] Load.defaultLoad until apply took 69.316114ms
+[debug]           Load.loadUnit: plugins took 49.104843ms
+[debug]           Load.loadUnit: defsScala took 0.239577ms
+[debug] [Loading] Scanning directory /Users/yongjip/IdeaProjects/advent_of_code_2022/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/yongjip/IdeaProjects/advent_of_code_2022/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 36.65516 ms
+[debug]               Load.resolveProject(advent_of_code_2022-build) took 39.713595ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id advent_of_code_2022-build, base: /Users/yongjip/IdeaProjects/advent_of_code_2022/project, plugins: List(<none>))) took 102.436276ms
+[debug] [Loading] Done in /Users/yongjip/IdeaProjects/advent_of_code_2022/project, returning: (advent_of_code_2022-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 118.055023ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.337924ms
+[debug]         Load.loadUnit(file:/Users/yongjip/IdeaProjects/advent_of_code_2022/project/, ...) took 172.369243ms
+[debug]       Load.apply: load took 778.294849ms
+[debug]       Load.apply: resolveProjects took 5.912483ms
+[debug]       Load.apply: finalTransforms took 53.162646ms
+[debug]       Load.apply: config.delegates took 5.311252ms
+[debug]       Load.apply: Def.make(settings)... took 284.495155ms
+[debug]       Load.apply: structureIndex took 83.066163ms
+[debug]       Load.apply: mkStreams took 1.352637ms
+[info] loading project definition from /Users/yongjip/IdeaProjects/advent_of_code_2022/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7109.539635ms
+[debug]     Load.loadUnit: defsScala took 0.002443ms
+[debug] [Loading] Scanning directory /Users/yongjip/IdeaProjects/advent_of_code_2022
+[debug]       Load.loadUnit: mkEval took 4.826777ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.672213 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 1.997158ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/yongjip/IdeaProjects/advent_of_code_2022, plugins: List(<none>))) took 4.49342ms
+[debug] [Loading] Done in /Users/yongjip/IdeaProjects/advent_of_code_2022, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1883.437452ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.725787ms
+[debug]   Load.loadUnit(file:/Users/yongjip/IdeaProjects/advent_of_code_2022/, ...) took 8996.988882ms
+[debug] Load.apply: load took 9011.979901ms
+[debug] Load.apply: resolveProjects took 0.080944ms
+[debug] Load.apply: finalTransforms took 12.468116ms
+[debug] Load.apply: config.delegates took 0.368929ms
+[debug] Load.apply: Def.make(settings)... took 75.043419ms
+[debug] Load.apply: structureIndex took 51.760904ms
+[debug] Load.apply: mkStreams took 0.001957ms
+[info] set current project to advent_of_code_2022 (in build file:/Users/yongjip/IdeaProjects/advent_of_code_2022/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/yongjip/.sbt/1.0/server/c9402c7c01c775e67a39/sock
+[debug] Writing bsp connection file
+[info] started sbt server
